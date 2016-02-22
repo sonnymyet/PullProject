@@ -1,7 +1,4 @@
-# PullProject
-
-Command line instructions
-
+# PullProject Command line instructions
 
 Git global setup
 
