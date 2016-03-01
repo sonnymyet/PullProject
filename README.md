@@ -22,3 +22,24 @@ git remote add origin git@csil-git1.cs.surrey.sfu.ca:shm6/pullproject.git
 git add .
 git commit
 git push -u origin master
+
+
+Merging via command line
+
+If you do not want to use the merge button or an automatic merge cannot be performed, you can perform a manual merge on the command line.
+ HTTPS
+ Git
+Patch
+
+https://github.com/sonnymyet/PullProject.git
+
+Step 1: From your project repository, bring in the changes and test.
+
+git fetch origin
+git checkout -b dev origin/dev
+git merge master
+Step 2: Merge the changes and update on GitHub.
+
+git checkout master
+git merge --no-ff dev
+git push origin master
