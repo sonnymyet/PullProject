@@ -43,3 +43,9 @@ Step 2: Merge the changes and update on GitHub.
 git checkout master
 git merge --no-ff dev
 git push origin master
+
+
+Merges branch with override
+
+git merge -X theirs master
+git merge -X ours master
